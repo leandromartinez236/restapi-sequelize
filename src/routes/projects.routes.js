@@ -9,10 +9,10 @@ import {
 } from "../controllers/projects.controller.js";
 const router = Router();
 
-router.get("/projects", getProjects);
-router.post("/projects", createProject);
-router.put("/projects/:id", updateProject);
-router.delete("/projects/:id", deleteProject);
-router.get("/projects/:id", getOneProject);
-router.get("/projects/:id/tasks", getProjectsTasks);
+router.get("/", getProjects);
+router.get("/:id", getOneProject);
+router.post("/", createProject);
+router.put("/:id", updateProject);
+router.delete("/:id", deleteProject);
+router.get("/:id/tasks", getProjectsTasks);
 export default router;

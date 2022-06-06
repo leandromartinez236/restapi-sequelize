@@ -5,5 +5,5 @@ export const sequelize = new Sequelize("restapi", "postgres", "root", {
 });
 
 // export const sequelize = new Sequelize(
-//   "postgres://postgres:root@localhost:3000/restapi"
+//   "postgres://postgres:root@localhost:5432/restapi"
 // );

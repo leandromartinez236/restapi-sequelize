@@ -1,14 +1,14 @@
 {
   "name": "sequelize-nodejs-restapi",
   "version": "1.0.0",
-  "description": "Rest api con express y sequelize",
+  "description": "Rest api with express and sequelize",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "nodemon src/index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Leandro Martinez",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.0",
